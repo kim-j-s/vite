@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Index</title>
+  </head>
+  <style lang="scss">
+    .g_tbl {
+      border: 1px solid #000;
+      table {
+        table-layout: fixed;
+        width: 100%;
+        th,
+        td {
+          text-align: center;
+          background-color: #ddd;
+        }
+      }
+    }
+  </style>
+  <body>
+    {{> header }}
+    <div class="g_tbl">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Dept1</th>
+            <th>Dept2</th>
+            <th>Dept3</th>
+            <th>비고</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="pages/sub1/sub1.html">sub1</a>
+            </td>
+            <td>내용 1</td>
+            <td>내용 2</td>
+            <td>내용 3</td>
+            <td>비고</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="pages/sub2/sub2.html">sub2</a>
+            </td>
+            <td>내용 1</td>
+            <td>내용 2</td>
+            <td>내용 3</td>
+            <td>비고</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
