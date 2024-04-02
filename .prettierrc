@@ -1,15 +1,18 @@
 {
+  "trailingComma": "all",
+  "tabWidth": 2,
   "semi": false,
   "singleQuote": true,
-  "tabWidth": 2,
+  "printWidth": 100,
   "useTabs": false,
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "arrowParens": "avoid",
   "overrides": [
     {
-      "files": "*.hbs",
+      "files": "**/*.hbs",
       "options": {
-        "printWidth": 80,
-        "parser": "glimmer",
-        "htmlWhitespaceSensitivity": "ignore"
+        "parser": "html"
       }
     }
   ]
