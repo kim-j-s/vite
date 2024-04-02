@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "prettier": "^3.2.5",
     "vite": "^5.2.0",
+    "vite-plugin-copy": "^0.1.6",
     "vite-plugin-html": "^3.2.2"
   },
   "dependencies": {

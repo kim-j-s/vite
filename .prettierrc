@@ -1,0 +1,16 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.hbs",
+      "options": {
+        "printWidth": 80,
+        "parser": "glimmer",
+        "htmlWhitespaceSensitivity": "ignore"
+      }
+    }
+  ]
+}
